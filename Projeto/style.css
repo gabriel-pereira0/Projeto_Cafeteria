@@ -122,7 +122,7 @@ section {
   padding: 1rem 0;
 }
 
-.tittle {
+.title {
   font-size: 4rem;
   color: var(--main-color);
   text-align: center;
@@ -130,7 +130,7 @@ section {
   margin-bottom: 4rem;
 }
 
-.tittle span {
+.title span {
   color: var(--white);
   text-transform: uppercase;
 }
@@ -157,6 +157,10 @@ section {
 .about .row .content {
   flex: 1;
   padding: 2rem;
+}
+
+.about .row .content .btn {
+  padding: 1rem 3rem;
 }
 
 .about .row .content h3 {
@@ -266,6 +270,26 @@ section {
   margin: 1rem 0;
 }
 
+.container-adress {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.container-adress h2 {
+  margin-bottom: 0rem;
+}
+
+.container-adress p {
+  color: var(--white);
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.container-adress p span {
+  color: var(--main-color);
+  text-transform: uppercase;
+}
+
 .address {
   display: flex;
   align-items: center;
@@ -326,8 +350,4 @@ section {
   .navbar {
     display: none;
   }
-
-  /* .about .row .content {
-    padding: 2rem;
-  } */
 }
