@@ -64,16 +64,25 @@ section {
   font-size: 2rem;
 }
 
-.icons a {
-  margin: 1rem;
-  cursor: pointer;
-  width: 10px;
-  height: auto;
+.header .icons {
+  display: flex;
+  font-size: 3rem;
 }
 
-.icons img:hover {
-  width: 35px;
-  height: 35px;
+.header .icons ion-icon {
+  color: var(--white);
+  margin-left: 1.5rem;
+  justify-content: center;
+  cursor: pointer;
+  gap: 1rem;
+}
+
+.header .icons ion-icon:hover {
+  color: var(--main-color);
+}
+
+.header .menu-navbar {
+  display: none;
 }
 
 .btn {
@@ -309,14 +318,16 @@ section {
   cursor: pointer;
 }
 
-.footer .share img {
+.footer .share ion-icon {
+  color: var(--white);
+  font-size: 3rem;
   margin: 1rem;
   cursor: pointer;
   border-radius: 50%;
   padding: 1rem;
 }
 
-.footer .share img:hover {
+.footer .share ion-icon:hover {
   background-color: var(--main-color);
 }
 
@@ -349,5 +360,8 @@ section {
 @media (max-width: 480px) {
   .navbar {
     display: none;
+  }
+  .header .menu-navbar {
+    display: block;
   }
 }
