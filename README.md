@@ -8,6 +8,7 @@ O principal objetivo deste projeto é colocar em prática conceitos como:
 
 - Estruturação de páginas com **HTML**
 - Estilização de elementos com **CSS**
+- Implementação de uma **navbar responsiva**
 - Organização de layout
 - Boas práticas de desenvolvimento web
 
@@ -15,6 +16,7 @@ O principal objetivo deste projeto é colocar em prática conceitos como:
 
 - HTML
 - CSS
+- JavaScript (toggle de classes para abrir/fechar o menu)
 
 ## 💻 Sobre o projeto
 
